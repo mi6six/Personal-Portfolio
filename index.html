@@ -7,19 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>vCard - Personal Portfolio</title>
 
-  <!--
-    - favicon
-  -->
+  <!-- Favicon -->
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-  <!--
-    - custom css link
-  -->
+  <!-- Custom CSS Link -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - google font link
-  -->
+  <!-- Google Font Link -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -27,172 +21,120 @@
 
 <body>
 
-  <!--
-    - #MAIN
-  -->
-
+  <!-- Main Content -->
   <main>
 
-    <!--
-      - #SIDEBAR
-    -->
-
+    <!-- Sidebar -->
     <aside class="sidebar" data-sidebar>
 
       <div class="sidebar-info">
-
         <figure class="avatar-box">
           <img src="./assets/images/IMG_2513.png" alt="Joshua Salcedo" width="80">
         </figure>
 
         <div class="info-content">
           <h1 class="name" title="Joshua Salcedo">Joshua Salcedo</h1>
-
-          <p class="title">Web developer</p>
+          <p class="title">Web Developer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
-
           <ion-icon name="chevron-down"></ion-icon>
         </button>
-
       </div>
 
       <div class="sidebar-info_more">
-
         <div class="separator"></div>
 
         <ul class="contacts-list">
-
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="mail-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Email</p>
-
               <a href="mailto:gordon.salcedo@icloud.com" class="contact-link">gordon.salcedo@icloud.com</a>
             </div>
-
           </li>
 
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="phone-portrait-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Phone</p>
-
               <a href="tel:+639157361855" class="contact-link">+63 915-736-1855</a>
             </div>
-
           </li>
 
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="calendar-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Birthday</p>
-
               <time datetime="1996-11-24">November 24, 1996</time>
             </div>
-
           </li>
 
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="location-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Location</p>
-
               <address>Baguio City, Benguet, Philippines</address>
             </div>
-
           </li>
-
         </ul>
 
         <div class="separator"></div>
 
         <ul class="social-list">
-
           <li class="social-item">
             <a href="#" class="social-link">
               <ion-icon name="logo-facebook"></ion-icon>
             </a>
           </li>
-
           <li class="social-item">
             <a href="#" class="social-link">
               <ion-icon name="logo-twitter"></ion-icon>
             </a>
           </li>
-
           <li class="social-item">
             <a href="#" class="social-link">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
-
         </ul>
-
       </div>
-
     </aside>
 
-    <!--
-      - #main-content
-    -->
-
+    <!-- Main Content -->
     <div class="main-content">
 
-      <!--
-        - #NAVBAR
-      -->
-
+      <!-- Navbar -->
       <nav class="navbar">
-
         <ul class="navbar-list">
-
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link active" data-nav-link>About</button>
           </li>
-
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Background</button>
           </li>
-
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Gallery</button>
           </li>
-
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
-
         </ul>
-
       </nav>
 
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
+      <!-- About Section -->
+      <article class="about active" data-page="about">
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title">About Me</h2>
         </header>
 
         <section class="about-text">
@@ -205,852 +147,605 @@
 
           <p>
             Aside from these hobbies, I have a strong passion for the arts, whether it’s creating my own pieces or appreciating the works of others.
-            I find that art allows me to express myself in ways words cannot. 
+            I find that art allows me to express myself in ways words cannot.
             Additionally, I’m an avid choral singer, and being part of a choir has taught me the power of harmony and collaboration.
             Music, like art, is a universal language that brings people together, and I’m grateful to be part of that experience.
           </p>
         </section>
 
-        <!--
-          - service
-        -->
-
+        <!-- Services Section -->
         <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
+          <h3 class="h3 service-title">What I'm Doing</h3>
 
           <ul class="service-list">
-
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
               </div>
-
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
-
+                <h4 class="h4 service-item-title">Web Design</h4>
                 <p class="service-item-text">
                   And a novice one at that. Took me a week to design what you're looking at right now.
                 </p>
               </div>
-
             </li>
 
             <li class="service-item">
-
               <div class="service-icon-box">
                 <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
               </div>
-
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
+                <h4 class="h4 service-item-title">Web Development</h4>
                 <p class="service-item-text">
                   Want something that prints "Hello Worl!"? I'm your guy. Call me.
                 </p>
               </div>
-
             </li>
 
             <li class="service-item">
-
               <div class="service-icon-box">
                 <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
               </div>
-
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
-
+                <h4 class="h4 service-item-title">Mobile Apps</h4>
                 <p class="service-item-text">
-                  Novice developer. I'm still in the process of learning how app works.
+                  Novice developer. I'm still in the process of learning how apps work.
                 </p>
               </div>
-
             </li>
 
             <li class="service-item">
-
               <div class="service-icon-box">
                 <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
               </div>
-
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Photography</h4>
-
                 <p class="service-item-text">
                   I make high-quality photos of any category. But I personally prefer nature shots.
                 </p>
               </div>
-
             </li>
-
           </ul>
-
         </section>
 
-        <!--
-          - What do his friends have to say about him?
-        -->
-
+        <!-- Testimonials Section -->
         <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">What do his friends have to say about him?</h3>
+          <h3 class="h3 testimonials-title">What Do His Friends Have to Say About Him?</h3>
 
           <ul class="testimonials-list has-scrollbar">
-
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
-
                 <figure class="testimonials-avatar-box">
                   <img src="./assets/images/avatar-1.png" alt="Allen Pal-iwen" width="60" data-testimonials-avatar>
                 </figure>
-
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Allen Pal-iwen</h4>
-
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
                     Hired him to help us during our research on one of my subjects before. He's very efficient with his time and was able to
                     produce a lot of output within a short span of time.
                   </p>
                 </div>
-
               </div>
             </li>
 
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
-
                 <figure class="testimonials-avatar-box">
                   <img src="./assets/images/avatar-2.png" alt="Erika Petinez" width="60" data-testimonials-avatar>
                 </figure>
-
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Erika Petinez</h4>
-
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
                     Ang galing nya with the cam. Sheesh. Halos lahat ng profile pictures ko sya umuha. <3
                   </p>
                 </div>
-
               </div>
             </li>
 
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
-
                 <figure class="testimonials-avatar-box">
                   <img src="./assets/images/avatar-3.png" alt="Jessica Dumanog" width="60" data-testimonials-avatar>
                 </figure>
-
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica Dumanog</h4>
-
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
                     Nag taraki jay ala na nga petsur idi naikasar ak. Sayang nga lang ta nagsina kami ken lakay ko before na na print jay petsur sunga sayang.
                   </p>
                 </div>
-
               </div>
             </li>
 
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
-
                 <figure class="testimonials-avatar-box">
                   <img src="./assets/images/avatar-4.png" alt="Ellis Miguel" width="60" data-testimonials-avatar>
                 </figure>
-
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Elis Miguel</h4>
-
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Sino? Di ko sya kilala HAHAHAHA 
+                    Sino? Di ko sya kilala HAHAHAHA
                   </p>
                 </div>
-
               </div>
             </li>
-
           </ul>
-
         </section>
 
-        <!--
-          - testimonials modal
-        -->
-
+        <!-- Testimonials Modal -->
         <div class="modal-container" data-modal-container>
-
           <div class="overlay" data-overlay></div>
-
           <section class="testimonials-modal">
-
             <button class="modal-close-btn" data-modal-close-btn>
               <ion-icon name="close-outline"></ion-icon>
             </button>
-
             <div class="modal-img-wrapper">
               <figure class="modal-avatar-box">
                 <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
               </figure>
-
               <img src="./assets/images/icon-quote.svg" alt="quote icon">
             </div>
-
             <div class="modal-content">
-
               <h4 class="h3 modal-title" data-modal-title>Mark Andawi</h4>
-
               <time datetime="2021-06-14">14 June, 2021</time>
-
               <div data-modal-text>
                 <p>
                   We went out drinking. He was able to chug down an entire bottle of 2x2 and still have enough gas in his tank to continue partying until dawn. Adik sika..
                 </p>
               </div>
-
             </div>
-
           </section>
-
         </div>
 
-        <!--
-          - Sponsor
-        -->
-
+        <!-- Sponsors Section -->
         <section class="clients">
-
           <h3 class="h3 clients-title">Sponsors. Joke.</h3>
-
           <ul class="clients-list has-scrollbar">
-
             <li class="clients-item">
               <a href="#">
                 <img src="./assets/images/logo-1-color.png" alt="client logo">
               </a>
             </li>
-
             <li class="clients-item">
               <a href="#">
                 <img src="./assets/images/logo-2-color.png" alt="client logo">
               </a>
             </li>
-
             <li class="clients-item">
               <a href="#">
                 <img src="./assets/images/logo-3-color.png" alt="client logo">
               </a>
             </li>
-
             <li class="clients-item">
               <a href="#">
                 <img src="./assets/images/logo-4-color.png" alt="client logo">
               </a>
             </li>
-
             <li class="clients-item">
               <a href="#">
                 <img src="./assets/images/logo-5-color.png" alt="client logo">
               </a>
             </li>
-
             <li class="clients-item">
               <a href="#">
                 <img src="./assets/images/logo-6-color.png" alt="client logo">
               </a>
             </li>
-
           </ul>
-
         </section>
-
       </article>
 
-      <!--
-        - #RESUME
-      -->
-
+      <!-- Background Section -->
       <article class="background" data-page="background">
-
         <header>
           <h2 class="h2 article-title">Background</h2>
         </header>
 
         <section class="timeline">
-
           <div class="title-wrapper">
             <div class="icon-box">
               <ion-icon name="book-outline"></ion-icon>
             </div>
-
             <h3 class="h3">ME</h3>
           </div>
 
           <ol class="timeline-list">
-            
             <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">University of the Cordilleras and beyond</h4>
-
-              <span>20014 — present</span>
-
+              <h4 class="h4 timeline-item-title">University of the Cordilleras and Beyond</h4>
+              <span>2014 — Present</span>
               <p class="timeline-text">
                 He studies IT to build a secure future for himself. At the same time, he continues to polish his skills and nurture his passion for the arts and music.
                 He sings, plays music, and writes his own songs whenever he has time. This balance allows him to stay true to himself and explore his creativity.
               </p>
-
             </li>
-            
+
             <li class="timeline-item">
-
               <h4 class="h4 timeline-item-title">Saint Mary's School of Sagada Inc.</h4>
-
               <span>2009 — 2014</span>
-
               <p class="timeline-text">
                 Here, he found his passion for singing when the school principal encouraged him to join the school choir.
                 He loved being part of the group, sharing music with his friends and learning new songs.
                 Singing made him feel happy, and he enjoyed performing at school events.
                 The experience helped him build his confidence and made him want to sing even more.
               </p>
-
             </li>
 
             <li class="timeline-item">
-
               <h4 class="h4 timeline-item-title">Victoria Elementary School, Isabela</h4>
-
               <span>2003 — 2009</span>
-
               <p class="timeline-text">
                 He studied in elementary school, where his love for the arts started.
                 He enjoyed painting and drawing, and his teachers encouraged him to join the art club.
                 There, he met other kids who loved art too, which helped him keep pursuing his passion for creativity.
               </p>
-
             </li>
-
           </ol>
-
         </section>
 
         <section class="timeline">
-
           <div class="title-wrapper">
             <div class="icon-box">
               <ion-icon name="book-outline"></ion-icon>
             </div>
-
-            <h3 class="h3">Current endeavor</h3>
+            <h3 class="h3">Current Endeavor</h3>
           </div>
 
           <ol class="timeline-list">
-
             <li class="timeline-item">
-
               <h4 class="h4 timeline-item-title">Member, University of the Cordilleras Chorale</h4>
-
               <span>2023 — Present</span>
-
               <p class="timeline-text">
                 Currently a member of the UC Chorale.
               </p>
-
             </li>
-
           </ol>
-
         </section>
 
         <section class="skill">
-
-          <h3 class="h3 skills-title">My skills (on a novice student level)</h3>
-
+          <h3 class="h3 skills-title">My Skills (on a novice student level)</h3>
           <ul class="skills-list content-card">
-
             <li class="skills-item">
-
               <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
+                <h5 class="h5">Web Design</h5>
                 <data value="80">80%</data>
               </div>
-
               <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 80%;"></div>
               </div>
-
             </li>
 
             <li class="skills-item">
-
               <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
+                <h5 class="h5">Graphic Design</h5>
                 <data value="70">70%</data>
               </div>
-
               <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 70%;"></div>
               </div>
-
             </li>
 
             <li class="skills-item">
-
               <div class="title-wrapper">
                 <h5 class="h5">Singing</h5>
                 <data value="90">90%</data>
               </div>
-
               <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 90%;"></div>
               </div>
-
             </li>
 
             <li class="skills-item">
-
               <div class="title-wrapper">
                 <h5 class="h5">WordPress</h5>
                 <data value="50">50%</data>
               </div>
-
               <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 50%;"></div>
               </div>
-
             </li>
-
           </ul>
-
         </section>
-
       </article>
 
-      <!--
-        - #GALLERY
-      -->
-
+      <!-- Gallery Section -->
       <article class="portfolio" data-page="portfolio">
-
         <header>
           <h2 class="h2 article-title">Gallery</h2>
         </header>
 
         <section class="projects">
-
           <ul class="filter-list">
-
             <li class="filter-item">
               <button class="active" data-filter-btn>All</button>
             </li>
-
             <li class="filter-item">
               <button data-filter-btn>Arts</button>
             </li>
-
             <li class="filter-item">
               <button data-filter-btn>Chorale</button>
             </li>
-
             <li class="filter-item">
               <button data-filter-btn>Random</button>
             </li>
-
           </ul>
 
           <div class="filter-select-box">
-
             <button class="filter-select" data-select>
-
               <div class="select-value" data-selecct-value>Select category</div>
-
               <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
               </div>
-
             </button>
 
             <ul class="select-list">
-
               <li class="select-item">
                 <button data-select-item>All</button>
               </li>
-
               <li class="select-item">
                 <button data-select-item>Arts</button>
               </li>
-
               <li class="select-item">
                 <button data-select-item>Chorale</button>
               </li>
-
               <li class="select-item">
                 <button data-select-item>Random</button>
               </li>
-
             </ul>
-
           </div>
 
           <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="random">
+            <li class="project-item active" data-filter-item data-category="random">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
                   <img src="./assets/images/random1.JPEG" alt="r1" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">After Rain</h3>
-
                 <p class="project-category">Random</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="random">
+            <li class="project-item active" data-filter-item data-category="random">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
                   <img src="./assets/images/random2.JPEG" alt="r2" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">November Bloom</h3>
-
                 <p class="project-category">Random</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="random">
+            <li class="project-item active" data-filter-item data-category="random">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
                   <img src="./assets/images/random3.JPEG" alt="r3" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">Happy Fire</h3>
-
                 <p class="project-category">Random</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="random">
+            <li class="project-item active" data-filter-item data-category="random">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
                   <img src="./assets/images/random4.JPEG" alt="r4" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">Blue & Green</h3>
-
                 <p class="project-category">Random</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="random">
+            <li class="project-item active" data-filter-item data-category="random">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
                   <img src="./assets/images/random5.JPEG" alt="r5" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">Sunrise</h3>
-
                 <p class="project-category">Random</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="random">
+            <li class="project-item active" data-filter-item data-category="random">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
                   <img src="./assets/images/random6.JPEG" alt="r6" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">Ricefield</h3>
-
                 <p class="project-category">Random</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="random">
+            <li class="project-item active" data-filter-item data-category="random">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
                   <img src="./assets/images/random7.JPG" alt="r7" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">Sunset</h3>
-
                 <p class="project-category">Random</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="chorale">
+            <li class="project-item active" data-filter-item data-category="chorale">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
                   <img src="./assets/images/chorale1.JPEG" alt="the uc chorale" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">The UC Chorale</h3>
-
                 <p class="project-category">Chorale</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="chorale">
+            <li class="project-item active" data-filter-item data-category="chorale">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
                   <img src="./assets/images/chorale2.JPEG" alt="those who left" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">Those Whole Left</h3>
-
+                <h3 class="project-title">Those Who Left</h3>
                 <p class="project-category">Chorale</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="chorale">
+            <li class="project-item active" data-filter-item data-category="chorale">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
                   <img src="./assets/images/chorale3.JPEG" alt="pasko" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">Pasko</h3>
-
                 <p class="project-category">Chorale</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="chorale">
+            <li class="project-item active" data-filter-item data-category="chorale">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
                   <img src="./assets/images/chorale4.JPEG" alt="tenors" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">Tenors</h3>
-
                 <p class="project-category">Chorale</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="chorale">
+            <li class="project-item active" data-filter-item data-category="chorale">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
                   <img src="./assets/images/chorale5.JPEG" alt="theater" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">Theater</h3>
-
                 <p class="project-category">Chorale</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="chorale">
+            <li class="project-item active" data-filter-item data-category="chorale">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
                   <img src="./assets/images/chorale6.JPEG" alt="outing" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">Outing</h3>
-
                 <p class="project-category">Chorale</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="chorale">
+            <li class="project-item active" data-filter-item data-category="chorale">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
                   <img src="./assets/images/chorale7.JPEG" alt="cordemayo" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">Cor de Mayo</h3>
-
                 <p class="project-category">Chorale</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="arts">
+            <li class="project-item active" data-filter-item data-category="arts">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
                   <img src="./assets/images/art1.png" alt="young eyes of evil" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">Young Eyes of Evil</h3>
-
                 <p class="project-category">Arts</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="arts">
+            <li class="project-item active" data-filter-item data-category="arts">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
                   <img src="./assets/images/art2.png" alt="rain" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">Rain</h3>
-
                 <p class="project-category">Arts</p>
-
               </a>
             </li>
 
-           <li class="project-item  active" data-filter-item data-category="arts">
+            <li class="project-item active" data-filter-item data-category="arts">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
                   <img src="./assets/images/art3.png" alt="error" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">The Error</h3>
-
                 <p class="project-category">Arts</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="arts">
+            <li class="project-item active" data-filter-item data-category="arts">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
                   <img src="./assets/images/art4.png" alt="red" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">Red</h3>
-
                 <p class="project-category">Arts</p>
-
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="arts">
+            <li class="project-item active" data-filter-item data-category="arts">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
                   <img src="./assets/images/art1.png" alt="ninja" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">Ninja</h3>
-
                 <p class="project-category">Arts</p>
-
               </a>
             </li>
-            
           </ul>
-
         </section>
-
       </article>
 
-      <!--
-        - #CONTACT
-      -->
-
+      <!-- Contact Section -->
       <article class="contact" data-page="contact">
-
         <header>
           <h2 class="h2 article-title">Contact</h2>
         </header>
@@ -1058,45 +753,35 @@
         <section class="mapbox" data-mapbox>
           <figure>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.1291215581878!2d120.55648529398773!3d16.41826737606903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a191ec3ceda9%3A0xe69544345725f292!2sTengdow%20Rd%2C%20Baguio%2C%20Benguet!5e0!3m2!1sen!2sph!4v1739293572971!5m2!1sen!2sph" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.1291215581878!2d120.55648529398773!3d16.41826737606903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a191ec3ceda9%3A0xe69544345725f292!2sTengdow%20Rd%2C%20Baguio%2C%20Benguet!5e0!3m2!1sen!2sph!4v1739293572971!5m2!1sen!2sph"
               width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </figure>
         </section>
 
         <section class="contact-form">
-
           <h3 class="h3 form-title">Contact Form</h3>
-
           <form action="#" class="form" data-form>
-
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
               <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
             </div>
-
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
             <button class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
-
           </form>
-
         </section>
-
       </article>
-
     </div>
-
   </main>
 
-  <!--
-    - custom js link
-  -->
+  <!-- Custom JS Link -->
   <script src="./assets/js/script.js"></script>
 
+  <!-- Ionicons Link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
